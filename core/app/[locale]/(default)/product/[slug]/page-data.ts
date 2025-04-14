@@ -262,7 +262,7 @@ export const getProductData = cache(async (variables: Variables) => {
     document: ProductPageQuery,
     variables: { ...variables, currencyCode },
     customerAccessToken,
-    fetchOptions: customerAccessToken ? { cache: 'no-store' } : { next: { revalidate } },
+    fetchOptions: { cache: 'no-store' },
   });
 
   const product = data.site.product;
