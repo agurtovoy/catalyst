@@ -2,7 +2,7 @@
 
 const semver = require('semver');
 
-const catalystRequiredNodeVersion = '^20';
+const catalystRequiredNodeVersion = '>=18';
 const userNodeVersion = process.version;
 
 if (!semver.satisfies(userNodeVersion, catalystRequiredNodeVersion)) {
