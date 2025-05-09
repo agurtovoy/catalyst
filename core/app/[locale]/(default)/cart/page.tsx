@@ -10,7 +10,12 @@ import { updateCouponCode } from './_actions/update-coupon-code';
 import { updateLineItem } from './_actions/update-line-item';
 import { updateShippingInfo } from './_actions/update-shipping-info';
 import { CartViewed } from './_components/cart-viewed';
-import { getCart, getShippingCountries } from './page-data';
+import {
+  createWalletButtonsInitOptions,
+  getCart,
+  getPaymentWallets,
+  getShippingCountries,
+} from './page-data';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -60,6 +65,14 @@ export default async function Cart({ params }: Props) {
       />
     );
   }
+
+  const walletButtons = await getPaymentWallets({
+    filters: {
+      cartEntityId: cartId,
+    },
+  });
+
+  const walletButtonsInitOptions = await createWalletButtonsInitOptions(walletButtons, cart);
 
   const lineItems = [...cart.lineItems.physicalItems, ...cart.lineItems.digitalItems];
 
@@ -249,6 +262,7 @@ export default async function Cart({ params }: Props) {
         }}
         summaryTitle={t('CheckoutSummary.title')}
         title={t('title')}
+        walletButtonsInitOptions={walletButtonsInitOptions}
       />
       <CartViewed
         currencyCode={cart.currencyCode}
