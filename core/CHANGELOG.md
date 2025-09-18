@@ -1,5 +1,35 @@
 # Changelog
 
+## 1.2.1
+
+### Patch Changes
+
+- [#2577](https://github.com/bigcommerce/catalyst/pull/2577) [`baf07ca`](https://github.com/bigcommerce/catalyst/commit/baf07ca89fdbb65bebf5926738b72690e4e6db60) Thanks [@jorgemoya](https://github.com/jorgemoya)! - Remove unused exports from core
+
+- [#2551](https://github.com/bigcommerce/catalyst/pull/2551) [`be23108`](https://github.com/bigcommerce/catalyst/commit/be2310809342d83cfc1a3619a537d2abf66dfe79) Thanks [@jkanive](https://github.com/jkanive)! - fix: resolve maintenance page width issues
+  - Add w-full classes to ensure proper width expansion
+  - Remove flex-1 in favor of w-full for column layout
+
+- [#2574](https://github.com/bigcommerce/catalyst/pull/2574) [`be80d14`](https://github.com/bigcommerce/catalyst/commit/be80d14c1c1051189e629d182dfd46fc60c363b1) Thanks [@jorgemoya](https://github.com/jorgemoya)! - Remove unused dependencies.
+
+- [#2609](https://github.com/bigcommerce/catalyst/pull/2609) [`4e6f58d`](https://github.com/bigcommerce/catalyst/commit/4e6f58dfda649571c56ec57b642e7addfb92a4aa) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Adds the product count to the facet label if the facet provides the count. This also fixes an issue where the facets weren't respecting the collapse by default setting.
+
+- [#2572](https://github.com/bigcommerce/catalyst/pull/2572) [`337b7ce`](https://github.com/bigcommerce/catalyst/commit/337b7ce05ee71ec3d937c3aa373aec8516896254) Thanks [@jorgemoya](https://github.com/jorgemoya)! - Remove unused UI files.
+
+- [#2580](https://github.com/bigcommerce/catalyst/pull/2580) [`f790cd6`](https://github.com/bigcommerce/catalyst/commit/f790cd67a4b632ecb4f3dfd5e7d416859cbcb042) Thanks [@jorgemoya](https://github.com/jorgemoya)! - Remove unused export types from core.
+
+- [#2585](https://github.com/bigcommerce/catalyst/pull/2585) [`a40b96f`](https://github.com/bigcommerce/catalyst/commit/a40b96f743ce5462cba4615026cbc6951aa87104) Thanks [@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)! - Add graceful error handling for invalid anonymous JWT cookies
+
+- [#2578](https://github.com/bigcommerce/catalyst/pull/2578) [`bb7940c`](https://github.com/bigcommerce/catalyst/commit/bb7940cedd169f053d55b787cc2b7183f737edba) Thanks [@jorgemoya](https://github.com/jorgemoya)! - Remove recpatcha code until we're ready to add it at a later point (if needed).
+
+  ## Migration
+  - A lot of the code removed was just old commented out blocks.
+  - Remove any recaptcha mention from graphql mutation and queries
+
+- [#2589](https://github.com/bigcommerce/catalyst/pull/2589) [`d3391ee`](https://github.com/bigcommerce/catalyst/commit/d3391eea6c87d05629e15f4f47bb5ad54c47f081) Thanks [@bc-svc-local](https://github.com/bc-svc-local)! - Update translations.
+
+- [#2608](https://github.com/bigcommerce/catalyst/pull/2608) [`3d47825`](https://github.com/bigcommerce/catalyst/commit/3d4782536022e1f9a33237963c4f013558108cf3) Thanks [@bc-svc-local](https://github.com/bc-svc-local)! - Update translations.
+
 ## 1.2.0
 
 ### Minor Changes
