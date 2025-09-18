@@ -48,8 +48,8 @@ importers:
         specifier: ^11.2.0
         version: 11.2.0(react@19.1.0)
       '@makeswift/runtime':
-        specifier: 0.0.0-snapshot-20250918225205
-        version: 0.0.0-snapshot-20250918225205(@types/react-dom@19.1.6(@types/react@19.1.6))(@types/react@19.1.6)(next@15.5.1-canary.4(@babel/core@7.27.4)(@playwright/test@1.52.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: 0.0.0-snapshot-20250922195602
+        version: 0.0.0-snapshot-20250922195602(@types/react-dom@19.1.6(@types/react@19.1.6))(@types/react@19.1.6)(next@15.5.1-canary.4(@babel/core@7.27.4)(@playwright/test@1.52.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-accordion':
         specifier: ^1.2.11
         version: 1.2.11(@types/react-dom@19.1.6(@types/react@19.1.6))(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -2452,19 +2452,19 @@ packages:
     resolution: {integrity: sha512-qC72D4+CDdjGqJvkFMMEAtancHUQ7/d/tAiHf64z8MopFDmcrtbcJuerDtFceuAfQJ2pDSfCKCtbqoGBNnwg0w==}
     engines: {node: '>=8'}
 
-  '@makeswift/controls@0.1.13':
-    resolution: {integrity: sha512-D/4YxUvd4vqdwJVWGQNfL9nrZH/PuIuFY/h2OR0sY4ljvbqerRDVPWc/2lNJqobYqV2avvToPpYHd2/1YYx+eA==}
+  '@makeswift/controls@0.0.0-snapshot-20250922195602':
+    resolution: {integrity: sha512-UFEbz3vdwqiu9oNn2hnLE3jTmiVrQu/PeOTU+JJpPx5M8oMmF0Z7Ai3YMa+1F6CYc4SsPP+KQ5umeSALKhWFAQ==}
 
   '@makeswift/next-plugin@0.5.0':
     resolution: {integrity: sha512-UHnd5edRDv0JwyMHSVhgD3wcgJO2kdV6jmsw80SJvaE3zZOtNFK1OtKSYMmNtwrH4nNiNKjM1HZbjoHkbbjK7Q==}
     peerDependencies:
       next: ^13.4.0 || ^14.0.0 || ^15.0.0
 
-  '@makeswift/prop-controllers@0.4.7':
-    resolution: {integrity: sha512-Xe4lhAtZ64SiZSuvmpBYttY8bzl2Dnq40OTLkwZbG4wpkUD71QZ6K0bMici6ZA24NoZuq9daoILJo5Rrnont+g==}
+  '@makeswift/prop-controllers@0.0.0-snapshot-20250922195602':
+    resolution: {integrity: sha512-l60ZLEchENVn7R6699zSURTOlrg2nw7wkYdc62/8p1xvDnFwWRExi1SxxenBw8wun6PrOLUN37yvIA4gXytKtA==}
 
-  '@makeswift/runtime@0.0.0-snapshot-20250918225205':
-    resolution: {integrity: sha512-afISOxTL8E+jjtlAYpJPWpexTGR6B9XLaewZFjZR7UkNKCW2a7b7YBDaigG73MryYD3O3I74BX7ASIc62boc3Q==}
+  '@makeswift/runtime@0.0.0-snapshot-20250922195602':
+    resolution: {integrity: sha512-dRD5auSk0qsyNuyJU8BvhgjuE+2h6KYHrYa/Awr9DhO7nleJ78V6TLQAgeG+Hw4tarSQi5wfbiYxgPLP/F23AA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@types/react': ^18.0.0 || ^19.0.0
@@ -10919,9 +10919,9 @@ snapshots:
       '@typescript-eslint/parser': 8.28.0(eslint@8.57.1)(typescript@5.8.3)
       eslint: 8.57.1
       eslint-config-prettier: 9.1.0(eslint@8.57.1)
-      eslint-import-resolver-typescript: 3.9.1(eslint-plugin-import@2.31.0)(eslint@8.57.1)
+      eslint-import-resolver-typescript: 3.9.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1))(eslint@8.57.1)
       eslint-plugin-gettext: 1.2.0
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint-import-resolver-typescript@3.9.1)(eslint@8.57.1)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint-import-resolver-typescript@3.9.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1))(eslint@8.57.1))(eslint@8.57.1)
       eslint-plugin-jest: 28.11.0(@typescript-eslint/eslint-plugin@8.28.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1)(jest@29.7.0(@types/node@22.15.30)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.11.31)(@types/node@22.15.30)(typescript@5.8.3)))(typescript@5.8.3)
       eslint-plugin-jest-dom: 5.5.0(eslint@8.57.1)
       eslint-plugin-jest-formatting: 3.1.0(eslint@8.57.1)
@@ -12321,7 +12321,7 @@ snapshots:
     dependencies:
       '@lukeed/csprng': 1.1.0
 
-  '@makeswift/controls@0.1.13':
+  '@makeswift/controls@0.0.0-snapshot-20250922195602':
     dependencies:
       color: 3.2.1
       css-box-model: 1.2.1
@@ -12338,13 +12338,13 @@ snapshots:
       next: 15.5.1-canary.4(@babel/core@7.27.4)(@playwright/test@1.52.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       semver: 7.7.2
 
-  '@makeswift/prop-controllers@0.4.7':
+  '@makeswift/prop-controllers@0.0.0-snapshot-20250922195602':
     dependencies:
-      '@makeswift/controls': 0.1.13
+      '@makeswift/controls': 0.0.0-snapshot-20250922195602
       ts-pattern: 5.8.0
       zod: 3.25.51
 
-  '@makeswift/runtime@0.0.0-snapshot-20250918225205(@types/react-dom@19.1.6(@types/react@19.1.6))(@types/react@19.1.6)(next@15.5.1-canary.4(@babel/core@7.27.4)(@playwright/test@1.52.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@makeswift/runtime@0.0.0-snapshot-20250922195602(@types/react-dom@19.1.6(@types/react@19.1.6))(@types/react@19.1.6)(next@15.5.1-canary.4(@babel/core@7.27.4)(@playwright/test@1.52.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@emotion/cache': 11.14.0
       '@emotion/css': 11.13.5
@@ -12352,9 +12352,9 @@ snapshots:
       '@emotion/server': 11.11.0(@emotion/css@11.13.5)
       '@emotion/sheet': 1.4.0
       '@emotion/utils': 1.4.2
-      '@makeswift/controls': 0.1.13
+      '@makeswift/controls': 0.0.0-snapshot-20250922195602
       '@makeswift/next-plugin': 0.5.0(next@15.5.1-canary.4(@babel/core@7.27.4)(@playwright/test@1.52.0)(babel-plugin-macros@3.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
-      '@makeswift/prop-controllers': 0.4.7
+      '@makeswift/prop-controllers': 0.0.0-snapshot-20250922195602
       '@reduxjs/toolkit': 2.9.0(react@19.1.0)
       '@use-gesture/react': 10.3.1(react@19.1.0)
       color: 3.2.1
@@ -15986,8 +15986,8 @@ snapshots:
       '@typescript-eslint/parser': 8.28.0(eslint@8.57.1)(typescript@5.8.3)
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.9.1(eslint-plugin-import@2.31.0)(eslint@8.57.1)
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint-import-resolver-typescript@3.9.1)(eslint@8.57.1)
+      eslint-import-resolver-typescript: 3.9.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1))(eslint@8.57.1)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint-import-resolver-typescript@3.9.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1))(eslint@8.57.1))(eslint@8.57.1)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@8.57.1)
       eslint-plugin-react: 7.37.4(eslint@8.57.1)
       eslint-plugin-react-hooks: 5.2.0(eslint@8.57.1)
@@ -16014,7 +16014,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.9.1(eslint-plugin-import@2.31.0)(eslint@8.57.1):
+  eslint-import-resolver-typescript@3.9.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1))(eslint@8.57.1):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.1
@@ -16025,7 +16025,7 @@ snapshots:
       stable-hash: 0.0.5
       tinyglobby: 0.2.14
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint-import-resolver-typescript@3.9.1)(eslint@8.57.1)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint-import-resolver-typescript@3.9.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1))(eslint@8.57.1))(eslint@8.57.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -16036,7 +16036,7 @@ snapshots:
       '@typescript-eslint/parser': 8.28.0(eslint@8.57.1)(typescript@5.8.3)
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.9.1(eslint-plugin-import@2.31.0)(eslint@8.57.1)
+      eslint-import-resolver-typescript: 3.9.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1))(eslint@8.57.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -16050,7 +16050,7 @@ snapshots:
     dependencies:
       gettext-parser: 4.2.0
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint-import-resolver-typescript@3.9.1)(eslint@8.57.1):
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint-import-resolver-typescript@3.9.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.28.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1))(eslint@8.57.1))(eslint@8.57.1):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8

@@ -26,7 +26,7 @@ runtime.registerComponent(MakeswiftProductDetail, {
   type: COMPONENT_TYPE,
   label: 'MakeswiftProductDetail (private)',
   hidden: true,
-  builtinSuspense: false,
+  //   builtinSuspense: false,
   props: {
     summaryText: TextArea({
       label: 'Summary',
