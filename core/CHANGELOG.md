@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.0
+
+### Minor Changes
+
+- [#2593](https://github.com/bigcommerce/catalyst/pull/2593) [`9e2f992`](https://github.com/bigcommerce/catalyst/commit/9e2f992a3f6b6e3fcd45a823343859403cda9542) Thanks [@hunterbecton](https://github.com/hunterbecton)! - Create alias for variables for button and button-link components
+
 ## 1.2.0
 
 ### Minor Changes
